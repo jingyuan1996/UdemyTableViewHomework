@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0792A0872E95727D00BCA7F1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0792A0862E95727D00BCA7F1 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0791E8A42E940CFC0019B768 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		0791E88D2E940CFA0019B768 /* RolanHomeworkTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RolanHomeworkTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0791E8A32E940CFC0019B768 /* RolanHomeworkTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolanHomeworkTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0791E8AD2E940CFC0019B768 /* RolanHomeworkTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolanHomeworkTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0792A0862E95727D00BCA7F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +93,7 @@
 		0791E8842E940CFA0019B768 = {
 			isa = PBXGroup;
 			children = (
+				0792A0862E95727D00BCA7F1 /* README.md */,
 				0791E88F2E940CFA0019B768 /* RolanHomeworkTableView */,
 				0791E8A62E940CFC0019B768 /* RolanHomeworkTableViewTests */,
 				0791E8B02E940CFC0019B768 /* RolanHomeworkTableViewUITests */,
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0792A0872E95727D00BCA7F1 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
