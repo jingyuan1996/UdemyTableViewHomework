@@ -56,7 +56,7 @@ extension ViewController : UITableViewDataSource{
 extension ViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView,
                    didSelectRowAt indexPath : IndexPath){
-        print("\(cities[indexPath.row])")
+        print("city = \(cities[indexPath.row]) country = \(cityCountry[cities[indexPath.row]] ?? "")")
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }
