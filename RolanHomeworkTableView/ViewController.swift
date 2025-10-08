@@ -45,7 +45,7 @@ extension ViewController : UITableViewDataSource{
         var cellContentConfigutation = tableViewCell.defaultContentConfiguration()
         let cityName = cities[indexPath.row]
         cellContentConfigutation.text = cityName
-        print(cityName)
+        //print(cityName)
         cellContentConfigutation.secondaryText = cityCountry[cityName] ?? ""
         tableViewCell.contentConfiguration = cellContentConfigutation
         
